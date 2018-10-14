@@ -1,11 +1,10 @@
 ## QuizCards
 
 ### App Description
-`TODO://`  app description
+
 ios app using swift. Flashcards for kids to study for their academic quizzes
 
 ### App Walk-though
-`TODO://` 
 
 <img src="https://github.com/mardb/flashcardapp/blob/master/ezgif.com-gif-to-mp4%20(1).gif" width=200><br>
 
