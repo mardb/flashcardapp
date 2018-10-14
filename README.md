@@ -1,7 +1,7 @@
 ## QuizCards
 
 ### App Description
-`TODO://` Add app description
+`TODO://`  app description
 ios app using swift. Flashcards for kids to study for their academic quizzes
 
 ### App Walk-though
