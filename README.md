@@ -6,11 +6,12 @@
 added "add card" cancel and "done" to flashcards
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
+ios app using swift. Flashcards for kids to study for their academic quizzes
+you can click on the card to reveal the answer or  click on the multiple choice to study.. 
+There is a function to add another card and "cancel" if you change your mind and "done when you are finished. 
 
-<img src="file:///Users/marlene/Documents/flashcard2.gif" width=200><br>
+<img src="https://github.com/mardb/flashcardapp/blob/master/flashcard2.gif" width=200><br>
 
-`TODO://` In the User stories section below, add an `x` between the `-[ ]` like this `- [x]` for any user story you complete. (☝️ Remove this paragraph after after checking off user stories)
 
 ## Required
 - [X] User can open the creation screen
