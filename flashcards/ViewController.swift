@@ -48,11 +48,6 @@ class ViewController: UIViewController {
         
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
     @IBAction func didTapOnFlashcard(_ sender: Any) {
         if(frontLabel.isHidden == true) {
             self.frontLabel.isHidden = false
@@ -71,5 +66,19 @@ class ViewController: UIViewController {
     
     @IBAction func didTapOptionThree(_ sender: Any) {
         btnOptionThree.isHidden = true
+    }
+    
+    func updateFlashcard(question: String, answer: String) {
+        frontLabel.text = question
+        backLabel.text = answer
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        let navigationController = segue.destination as! UINavigationController
+        
+        let creationController = navigationController.topViewController as! CreationViewController
+        
+        creationController.flashCardController = self
     }
 }
