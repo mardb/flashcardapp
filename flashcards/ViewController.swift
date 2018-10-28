@@ -71,9 +71,13 @@ class ViewController: UIViewController {
     }
     
     // action to do on pencil emoji
-    func updateFlashcard(question: String, answer: String) {
+    func updateFlashcard(question: String, answer: String, extraAnswer1: String, extraAnswer2: String) {
         frontLabel.text = question
         backLabel.text = answer
+        
+        btnOptionOne.setTitle(extraAnswer1, for: .normal)
+        btnOptionTwo.setTitle(answer, for: .normal)
+        btnOptionThree.setTitle(extraAnswer2, for: .normal)
     }
     
     // this function makes the creationViewController accessible to the main viewController
