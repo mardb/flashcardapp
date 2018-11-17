@@ -68,8 +68,9 @@ ios app using swift. Flashcards for kids to study for their academic quizzes
 ### App Walk-though
 
 <p float="left">
-<img src="https://github.com/mardb/flashcardapp/blob/master/flashcardapp_02.gif" width=200>
-<img src="https://github.com/mardb/flashcardapp/blob/master/flashcardapp_01.gif" width=200><br>
+  <img src="https://github.com/mardb/flashcardapp/blob/master/flashcardapp_01.gif" width=200>
+<img src="https://github.com/mardb/flashcardapp/blob/master/flashcardapp_02.gif" width=200><br>
+
 
 </p>
 <br>
@@ -86,4 +87,9 @@ ios app using swift. Flashcards for kids to study for their academic quizzes
 - [X] Style the question and answer side of the card to better distinguish between the two sides
 - [X] Add selectable multiple choice answers beneath the card
 
+
+<p float="left">
+  
+</p>
+<br>
 
