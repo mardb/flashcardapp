@@ -17,10 +17,23 @@ class CreationViewController: UIViewController {
     @IBOutlet weak var extraAnswer1: UITextField!
     @IBOutlet weak var extraAnswer2: UITextField!
     
+    var newQuestion: String?
+    var newAnswer: String?
+    var newAns2: String?
+    var newAns3: String?
+    
+    var addNew: Bool?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
+        
+        questionTextField.text = newQuestion
+        answerTextField.text = newAnswer
+        extraAnswer1.text = newAns2
+        extraAnswer2.text = newAns3
+        
     }
     
     @IBAction func didTapOnCancel(_ sender: Any) {
@@ -28,12 +41,25 @@ class CreationViewController: UIViewController {
     }
     
     @IBAction func didTapOnDone(_ sender: Any) {
-        let questionText = questionTextField.text
-        let answerText = answerTextField.text
-        let extraAns1 = extraAnswer1.text
-        let extraAns2 = extraAnswer2.text
+        //get the text in the question field
+        let newQuestion = questionTextField.text
         
-        flashCardController.updateFlashcard(question: questionText!, answer: answerText!, extraAnswer1: extraAns1!, extraAnswer2: extraAns2!)
+        //get the text in the answer field
+        let newAnswer = answerTextField.text
+        let newAns2 = extraAnswer1.text
+        let newAns3 = extraAnswer2.text
+        
+        let alert = UIAlertController(title: "Missing Text", message: "You must enter question, and 3 options for answers. 1 must be true and 2 must be false.", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: .default))
+        
+        //check if empty // validate
+        if(newQuestion == nil || newAnswer == nil || newQuestion!.isEmpty || newAnswer!.isEmpty || newAns2 == nil || newAns2!.isEmpty || newAns3 == nil ||  newAns3!.isEmpty){
+            present(alert, animated: true)
+
+        }else{
+              // show an error message, else we want to do what we were doing before (calling the updateFlashcard function and dismissing).
+            flashCardController.updateFlashcard(question: newQuestion!, answer: newAnswer!,  extraAnswer1: newAns2!, extraAnswer2: newAns3!)
+            //, addNewCard: addNew!
         dismiss(animated: true)
     }
     /*
@@ -46,4 +72,5 @@ class CreationViewController: UIViewController {
      }
      */
     
+}
 }
