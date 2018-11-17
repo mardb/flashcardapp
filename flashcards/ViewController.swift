@@ -88,5 +88,12 @@ class ViewController: UIViewController {
         let creationController = navigationController.topViewController as! CreationViewController
         
         creationController.flashCardController = self
+        
+        //separate different seques with different actions
+        //user wants to edit, page must be pre populated with data
+        
+        
+        
     }
+    
 }
