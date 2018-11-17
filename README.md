@@ -9,6 +9,7 @@
 
 <img src="YOUR_GIF_URL_HERE" width=200><br>
 
+
 ## Required
 - [X] User can browse through multiple flashcards
 - [X] User can re-open the app and see previously created flashcards
@@ -30,6 +31,7 @@ you can click on the card to reveal the answer or  click on the multiple choice 
 There is a function to add another card and "cancel" if you change your mind and "done when you are finished. 
 
 <img src="https://github.com/mardb/flashcardapp/blob/master/flashcard2.gif" width=200><br>
+<img src=" " width=200><br>
 
 
 ## Required
@@ -53,6 +55,7 @@ ios app using swift. Flashcards for kids to study for their academic quizzes
 ### App Walk-though
 
 <img src="https://github.com/mardb/flashcardapp/blob/master/flashcardapp_02.gif" width=200><br>
+<img src="https://github.com/mardb/flashcardapp/blob/master/flashcardapp_01.gif" width=200><br>
 
 ## Required
 - [X] Create New Project in Xcode
