@@ -7,7 +7,12 @@
 ### App Walk-though
 `TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
+
+<p float="left">
 <img src="YOUR_GIF_URL_HERE" width=200><br>
+</p>
+<br>
+
 
 
 ## Required
@@ -30,8 +35,14 @@ ios app using swift. Flashcards for kids to study for their academic quizzes
 you can click on the card to reveal the answer or  click on the multiple choice to study.. 
 There is a function to add another card and "cancel" if you change your mind and "done when you are finished. 
 
+<p float="left">
 <img src="https://github.com/mardb/flashcardapp/blob/master/flashcard2.gif" width=200><br>
 <img src="https://github.com/mardb/flashcardapp/blob/master/lab02.gif" width=200><br>
+</p>
+<br>
+
+
+
 
 
 ## Required
@@ -54,8 +65,13 @@ ios app using swift. Flashcards for kids to study for their academic quizzes
 
 ### App Walk-though
 
+<p float="left">
 <img src="https://github.com/mardb/flashcardapp/blob/master/flashcardapp_02.gif" width=200>
 <img src="https://github.com/mardb/flashcardapp/blob/master/flashcardapp_01.gif" width=200><br>
+
+</p>
+<br>
+
 
 ## Required
 - [X] Create New Project in Xcode
