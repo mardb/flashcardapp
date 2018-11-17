@@ -54,7 +54,7 @@ ios app using swift. Flashcards for kids to study for their academic quizzes
 
 ### App Walk-though
 
-<img src="https://github.com/mardb/flashcardapp/blob/master/flashcardapp_02.gif" width=200><br>
+<img src="https://github.com/mardb/flashcardapp/blob/master/flashcardapp_02.gif" width=200>
 <img src="https://github.com/mardb/flashcardapp/blob/master/flashcardapp_01.gif" width=200><br>
 
 ## Required
