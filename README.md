@@ -31,7 +31,7 @@ you can click on the card to reveal the answer or  click on the multiple choice 
 There is a function to add another card and "cancel" if you change your mind and "done when you are finished. 
 
 <img src="https://github.com/mardb/flashcardapp/blob/master/flashcard2.gif" width=200><br>
-<img src=" " width=200><br>
+<img src="https://github.com/mardb/flashcardapp/blob/master/lab02.gif" width=200><br>
 
 
 ## Required
