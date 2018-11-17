@@ -37,7 +37,7 @@ There is a function to add another card and "cancel" if you change your mind and
 
 
 <p float="left">
-<img src="https://github.com/mardb/flashcardapp/blob/master/flashcard2.gif" width=200><br>
+<img src="https://github.com/mardb/flashcardapp/blob/master/flashcard2.gif" width=200>
 <img src="https://github.com/mardb/flashcardapp/blob/master/lab02.gif" width=200><br>
 
 </p>
